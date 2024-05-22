@@ -8,8 +8,8 @@
     const xNudge = 30;
     const yNudge = 30;
  
-    $: xPosition = 1/5*width;
-    $: yPosition = 1/4*height;
+    $: xPosition = 1/6*width;
+    $: yPosition = 1/5*height;
  
     import { fly } from 'svelte/transition';
 
