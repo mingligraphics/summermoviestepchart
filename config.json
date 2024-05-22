@@ -1,0 +1,9 @@
+{
+	"capi": false,
+	"https": false,
+	"fallbackImage": "",
+	"framework": "svelte",
+	"layout": "bleed",
+	"slug": "moviestepchart",
+	"uuid": "78198d6f-fb00-4beb-98c7-9e6adb5936e6"
+}

@@ -1,0 +1,7 @@
+[ { "sequel": "A","time": 0, "revenue": 0 }, 
+{ "sequel": "A", "time": 2, "revenue": 15 }, 
+{ "sequel": "A", "time": 5, "revenue": 15 },
+{ "sequel": "B", "time": 1, "revenue": 3 },  
+{ "sequel": "B", "time": 6, "revenue": 1 }, 
+{ "sequel": "B", "time": 7, "revenue": 5 }, 
+{ "sequel": "B", "time": 8, "revenue": 1 }]
