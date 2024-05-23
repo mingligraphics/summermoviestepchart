@@ -12,10 +12,10 @@
     <line 
     x1={0} 
     y1={margin.bottom + 30 }
-    x2={i === 8 ? 65 : 30} 
+    x2={i === 7 ? 65 : 30} 
     y2={margin.bottom + 30}
     stroke={"#e5e7eb"}/>
-    <text x={i === 0 ? 15 : i === 8 ? 0 : 5} y={margin.bottom + 25}>{i == 8 ? "$" : ""}{tick / 1000000}{i == 8 ? " million" : ""}</text>
+    <text x={i === 0 ? 5 : i === 8 ? 0 : 5} y={margin.bottom + 25}>{i == 7 ? "$" : ""}{tick / 1000000000}{i == 7 ? " billion" : ""}</text>
   </g>
   {/each}
 </g>

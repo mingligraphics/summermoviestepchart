@@ -14,7 +14,10 @@
     import { fly } from 'svelte/transition';
 
     const sequel_name = data[0].sequel;
-    const sequel_revenue = data[data.length - 1].revenue;
+    $: sequel_revenue = data[data.length - 1].revenue / 1000000 > 1000 
+    ? Math.round(data[data.length - 1].revenue / 1000000000 * 10) / 10 + " billion" 
+    : Math.round(data[data.length - 1].revenue / 1000000) + " million" ;
+    const imageManagerId = data[0].imageManagerId;
  </script>
  
  <div bind:clientWidth={tooltipWidth}
@@ -22,8 +25,9 @@
  transition:fly
  style="left: {xPosition}px; top: {yPosition}px">
  <h1>{sequel_name}</h1>
- 
- <h2>Total box office: <span>${Math.round(sequel_revenue / 1000000)} million</span></h2>
+ <h2>Total box office: <span>${sequel_revenue}</span></h2>
+ <!-- svelte-ignore a11y-missing-attribute -->
+ <img width=250 height=250 src="https://images.wsj.net/im-{imageManagerId}"/>
  <!-- <span>{data.Downloads.toLocaleString()} downloads</span> -->
  </div>
  
@@ -32,7 +36,7 @@
         position: absolute;
         background: white;
         box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15);
-        padding: 8px 6px;
+        padding: 6px 4px;
         border-radius: 3px;
         pointer-events: none;
         font-family: RetinaLight, sans-serif;
@@ -41,14 +45,14 @@
      }
  
  h1 {
-     font-size: 2.5rem;
+     font-size: 1rem;
      font-weight: 600;
-     margin-bottom: 4px;
+     margin-bottom: 2px;
      width: 100%;
  }
  
  h2 {
-     font-size: 1.5rem;
+     font-size: 0.8rem;
      font-weight: 500;
      /* text-transform: uppercase; */
  }

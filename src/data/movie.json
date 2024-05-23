@@ -4,146 +4,159 @@
     "name": "Deadpool",
     "time": 2016,
     "revenue": 363070709,
-    "world_revenue": 783585842
+    "text_label": "N",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963332
   },
   {
     "sequel": "Deadpool",
     "name": "Deadpool 2",
     "time": 2018,
     "revenue": 687662444,
-    "world_revenue": 1523932072
-  },
-  {
-    "sequel": "Deadpool",
-    "name": "Deadpool and Wolverine",
-    "time": 2024,
-    "revenue": 687662444,
-    "world_revenue": 1523932072
+    "text_label": "Y",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963332
   },
   {
     "sequel": "A Quiet Place",
     "name": "A Quiet Place",
     "time": 2018,
     "revenue": 188024361,
-    "world_revenue": 340978742
+    "text_label": "N",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963333
   },
   {
     "sequel": "A Quiet Place",
     "name": "A Quiet Place Part II",
     "time": 2021,
     "revenue": 348240125,
-    "world_revenue": 640219526
-  },
-  {
-    "sequel": "A Quiet Place",
-    "name": "A Quiet Place: Day One",
-    "time": 2024,
-    "revenue": 348240125,
-    "world_revenue": 640219526
+    "text_label": "Y",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963333
   },
   {
     "sequel": "Twister",
     "name": "Twister",
     "time": 1996,
     "revenue": 242348751,
-    "world_revenue": 495148751
-  },
-  {
-    "sequel": "Twister",
-    "name": "Twisters",
-    "time": 2024,
-    "revenue": 242348751,
-    "world_revenue": 495148751
+    "text_label": "Y",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963337
   },
   {
     "sequel": "Inside Out",
     "name": "Inside Out",
     "time": 2015,
     "revenue": 356461711,
-    "world_revenue": 858118156
+    "text_label": "Y",
+    "x_nudge": -35,
+    "y_nudge": 15,
+    "imageManagerId": 963334
   },
   {
-    "sequel": "Inside Out",
-    "name": "Inside Out 2",
-    "time": 2024,
-    "revenue": 356461711,
-    "world_revenue": 858118156
-  },
-  {
-    "sequel": "Despicable Me",
+    "sequel": "Despicable Me and Minions",
     "name": "Despicable Me",
     "time": 2010,
     "revenue": 252756705,
-    "world_revenue": ""
+    "text_label": "N",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963335
   },
   {
-    "sequel": "Despicable Me",
+    "sequel": "Despicable Me and Minions",
     "name": "Despicable Me 2",
     "time": 2013,
     "revenue": 620963170,
-    "world_revenue": ""
+    "text_label": "N",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963335
   },
   {
-    "sequel": "Despicable Me",
+    "sequel": "Despicable Me and Minions",
+    "name": "Minions",
+    "time": 2015,
+    "revenue": 885691690,
+    "text_label": "N",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963335
+  },
+  {
+    "sequel": "Despicable Me and Minions",
     "name": "Despicable Me 3",
     "time": 2017,
-    "revenue": 885691690,
-    "world_revenue": ""
+    "revenue": 1222528030,
+    "text_label": "Y",
+    "x_nudge": -100,
+    "y_nudge": -20,
+    "imageManagerId": 963335
   },
   {
-    "sequel": "Despicable Me",
-    "name": "Despicable Me 4",
-    "time": 2024,
-    "revenue": 885691690,
-    "world_revenue": ""
+    "sequel": "Despicable Me and Minions",
+    "name": "Minions: The Rise Of Gru",
+    "time": 2022,
+    "revenue": 1592798795,
+    "text_label": "N",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963335
   },
   {
     "sequel": "Garfield",
     "name": "Garfield",
     "time": 2004,
     "revenue": 75369589,
-    "world_revenue": ""
+    "text_label": "N",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963336
   },
   {
     "sequel": "Garfield",
     "name": "Garfield: A Tail Of Two Kitties",
     "time": 2006,
     "revenue": 103796336,
-    "world_revenue": ""
-  },
-  {
-    "sequel": "Garfield",
-    "name": "Garfield",
-    "time": 2024,
-    "revenue": 103796336,
-    "world_revenue": ""
+    "text_label": "Y",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963336
   },
   {
     "sequel": "Bad Boys",
     "name": "Bad Boys (1995)",
     "time": 1995,
     "revenue": 74997843,
-    "world_revenue": ""
+    "text_label": "N",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963331
   },
   {
     "sequel": "Bad Boys",
     "name": "Bad Boys II",
     "time": 2003,
     "revenue": 213394467,
-    "world_revenue": ""
+    "text_label": "N",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963331
   },
   {
     "sequel": "Bad Boys",
     "name": "Bad Boys For Life",
     "time": 2020,
     "revenue": 419699711,
-    "world_revenue": ""
-  },
-  {
-    "sequel": "Bad Boys",
-    "name": "Bad Boys: Ride or Die",
-    "time": 2024,
-    "revenue": 419699711,
-    "world_revenue": ""
+    "text_label": "Y",
+    "x_nudge": 0,
+    "y_nudge": 0,
+    "imageManagerId": 963331
   }
 ]
