@@ -11,7 +11,7 @@
         {#each xTicks as tick, i}
           <g class="tick tick-{tick}" transform="translate({xScale(tick) + margin.left},{margin.top})">
             <line x1="0" x2="0" y1="0" y2={height} stroke="#dcddde" stroke-width=1/>
-            <text x=-2 y={-25} dx={-10} dy="20">{tick}</text>
+            <text x=-2 y={-25} dx={i == 0 || i == 1 ? -10 : -5} dy="20">{i == 0 || i == 1 ? tick.toString() : "’" + tick.toString().slice(2)}</text>
           </g>
         {/each}
         <text x={3/5 * width } y={20}

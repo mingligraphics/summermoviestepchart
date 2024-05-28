@@ -5,10 +5,11 @@
     $: steps = [
     // 0 
     `<p>It’s the summer of the sequel, with Hollywood returning to popular franchises for box office success.</p>`,
-    `Universal and Illumination’s ‘Despicable Me’ and Minions movies have proved to be consistent hits, grossing a collective $1.6 billion since 2010.`,
+    `Illumination and Universal’s ‘Despicable Me’ and Minions movies have proved to be consistent hits, grossing a collective $1.6 billion since 2010`,
     // 2 
     `Disney’s Pixar, which has had success with sequels in its ‘Toy Story’ franchise, is slated to release ‘Inside Out 2’ in June.`,
-    `Sony’ planned release of ‘Bad Boys: Ride or Die’ marks the continuation of a long-running franchise starring Will Smith and Martin Lawrence.`
+    `Sony’s planned release of ‘Bad Boys: Ride or Die’ marks the continuation of a long-running franchise starring Will Smith and Martin Lawrence.`,
+    `Note: U.S. and Canada ticket sales<br>Source: Comscore`
   ];
 </script>
 <div class="steps">

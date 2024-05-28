@@ -78,6 +78,10 @@
       hoveredLineData = [...renderedData][6][1]; 
       hoveredData = null;
     }
+    if(currentStep === 4){
+      hoveredData = null;
+      hoveredLineData = null;
+    }
   }
   
 </script>
@@ -91,7 +95,7 @@
   <AxisX {xScale} {xTicks} {margin} {formatTime_xaxis} height = {innerHeight} width = {innerWidth}/>
   <AxisY  {yTicks} {yScale} {width} {margin}/>
   <g transform="translate({margin.left} {margin.top})" on:mouseleave={()=>{hoveredLineData = null; hoveredData = null; hoveredSequel=null}}>
-    {#if currentStep == 0}
+    {#if currentStep == 0 || currentStep == 4}
     {#each textLableData as label, i}
     <text
     class="sequel-lables"
@@ -152,13 +156,16 @@
     {/each}
   </g>
   </svg>
-  {#if hoveredLineData}
+  {#if hoveredLineData && width > 400}
   <TooltipLine data={hoveredLineData} width = {innerWidth} height = {innerHeight}/>
   {/if}
-  {#if hoveredData}
+  {#if hoveredData && width > 400}
   <Tooltip data={hoveredData} {xScale} {yScale} width = {innerWidth} height={innerHeight}/>
   {/if}
- <p class="footnote">Source: Comscore</p>
+ {#if width > 400}
+ <p class="photocredit">Photos: Columbia Pictures/Everett Collection (2), Walt Disney Co./Everett Collection, Warner Bros/Everett Collection, Joe Lederer/Twentieth Century Fox/Everett Collection, Universal/Everett Collection, Paramount/Everett Collection</p>
+ {/if}
+ <!-- <p class="footnote">Note: U.S. and Canada ticket sales<br>Source: Comscore</p> -->
 </div>
 </div>
 <Steps bind:currentStep/>
@@ -230,10 +237,18 @@ h1{
     color: #333333;
     font-family: Retina, sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
   }
 
-  .footnote{
+  /* .footnote{
+    color: #727272;
+    font-weight: 300;
+    font-family: Retina, sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+  } */
+
+  .photocredit{
     color: #727272;
     font-weight: 300;
     font-family: Retina, sans-serif;
